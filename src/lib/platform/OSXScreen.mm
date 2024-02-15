@@ -2063,7 +2063,7 @@ logCursorVisibility()
 {
 	// CGCursorIsVisible is probably deprecated because its unreliable.
 	if (!CGCursorIsVisible()) {
-		LOG((CLOG_WARN "cursor may not be visible"));
+		LOG((CLOG_DEBUG "cursor may not be visible"));
 	}
 }
 
